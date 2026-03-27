@@ -1,0 +1,153 @@
+(ExpressProject "proiect_tare"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\tools\capture\library\pspice\analog.olb"
+        (DisplayName "..\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\breakout.olb"
+        (DisplayName "..\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\source.olb"
+        (DisplayName "..\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName "..\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "..\tools\capture\library\pspice\special.olb"
+        (DisplayName "..\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "proiect_tare.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\proiect_tare-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_tare-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_tare-pspicefiles\schematic1\trs.sim"
+        (DisplayName "SCHEMATIC1-trs")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_tare-pspicefiles\schematic1\trs1.sim"
+        (DisplayName "SCHEMATIC1-trs1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_tare-pspicefiles\schematic1\transient.sim"
+        (DisplayName "SCHEMATIC1-transient")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\proiect_tare-pspicefiles\schematic1\monte carlo.sim"
+        (DisplayName "SCHEMATIC1-Monte Carlo")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\proiect_tare-pspicefiles\schematic1\trs.sim")))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LA_T676-TYP
+      (FullPartName "LA_T676-TYP.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\OSRAM_TOPLED.OLB")
+      (DeviceIndex "0"))
+    (LU_5351-TYP
+      (FullPartName "LU_5351-TYP.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\OSRAM_5MMRADIAL.OLB")
+      (DeviceIndex "0"))
+    (LO_3336-TYP
+      (FullPartName "LO_3336-TYP.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\OSRAM_3MMRADIAL.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM124
+      (FullPartName "LM124.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "2"))
+    (D1N5765
+      (FullPartName "D1N5765.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (uA741
+      (FullPartName "uA741.Normal")
+      (LibraryName
+         "C:\USERS\OMEN\DESKTOP\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "Omen")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\omen\desktop\orcad_proiect\proiect_tare.dsn")
+      (Path "Design Resources"
+         "c:\users\omen\desktop\orcad_proiect\proiect_tare.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\omen\desktop\orcad_proiect\proiect_tare.dsn" "SCHEMATIC1"
+         "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 296"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1356 52 387")
+        (Scroll "-229 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\OMEN\DESKTOP\ORCAD_PROIECT\PROIECT_TARE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
